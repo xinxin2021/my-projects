@@ -29,6 +29,9 @@ class MyFrame(wx.Frame):
             command += self.path3.GetValue()
             command += '.html'
             os.popen(command)
+            message = wx.MessageDialog(None,'Saved successfully!','INFORMATION',wx.OK | wx.ICON_INFORMATION)
+            if message.ShowModal() == wx.ID_OK:
+                pass
         else:
             message = wx.MessageDialog(None,'The saved file name cannot contain spaces.','WARNING',wx.OK | wx.ICON_WARNING)
             if message.ShowModal() == wx.ID_OK:

@@ -24,7 +24,7 @@ class MyFrame(wx.Frame):
         vbox.Add(self.button,flag=wx.EXPAND,border=10)
         panel.SetSizer(vbox)
     def on_click(self,event):
-        if ' ' not in self.path3.GetValue():
+        if [' ', '/', '\\', '?', ':', '*', '"', '<', '>', '|'] not in self.path3.GetValue():
             command = 'powercfg /batteryreport /output C:\\'
             command += self.path3.GetValue()
             command += '.html'

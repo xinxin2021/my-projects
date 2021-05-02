@@ -40,7 +40,7 @@ class MyFrame(wx.Frame):
                     path_l[i] = '\\\\'
             for i in range(len(path_l)):
                 self.path2 += path_l[i]
-            self.path.SetLabelText('Python path:' + self.path2)
+            self.path.SetLabelText('Python Path:' + self.path2)
         else:
             dhk = wx.MessageDialog(parent=self,message='Please enter the path!',caption='ERROR', style=wx.OK | wx.ICON_ERROR)
             if dhk.ShowModal() == wx.ID_OK:

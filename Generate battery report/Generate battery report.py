@@ -38,7 +38,7 @@ class MyFrame(wx.Frame):
     def on_click(self,event):
         name = self.path3.GetValue()
         name += '.html'
-        if name != 'CON':
+        if name == 'CON':
             message = wx.MessageDialog(None,"You can't use con as the file name!",'WARNING',wx.OK | wx.ICON_WARNING)
             if message.ShowModel() == wx.ID_OK:
                 pass

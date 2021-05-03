@@ -38,7 +38,11 @@ class MyFrame(wx.Frame):
     def on_click(self,event):
         name = self.path3.GetValue()
         name += '.html'
-        if isi('C:\\',name):
+        if name != 'CON':
+            message = wx.MessageDialog(None,"You can't use con as the file name!",'WARNING',wx.OK | wx.ICON_WARNING)
+            if message.ShowModel() == wx.ID_OK:
+                pass
+        elif isi('C:\\',name):
             message = wx.MessageDialog(None,'This HTML file already exists in disk C!','ERROR',wx.OK | wx.ICON_ERROR)
             if message.ShowModal() == wx.ID_OK:
                 pass

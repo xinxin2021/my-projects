@@ -10,9 +10,7 @@ def isi(path,name):
         return False
 def isib(l,dx):
     for i in range(len(l)):
-        if l[i] not in dx:
-            pass
-        else:
+        if l[i] in dx:
             return False
     return True
 class MyFrame(wx.Frame):

@@ -39,7 +39,7 @@ class MyFrame(wx.Frame):
         name = self.path3.GetValue()
         name += '.html'
         if name == 'CON':
-            message = wx.MessageDialog(None,"You can't use con as the file name!",'WARNING',wx.OK | wx.ICON_WARNING)
+            message = wx.MessageDialog(None,"You can't use CON as the file name!",'WARNING',wx.OK | wx.ICON_WARNING)
             if message.ShowModel() == wx.ID_OK:
                 pass
         elif isi('C:\\',name):

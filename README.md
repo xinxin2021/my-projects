@@ -1,7 +1,7 @@
 # My-Projects
 This is My-Projects's README
 ## Backgroud
-My collection of works.
+My make of works.
 ## Install
 This project can be run directly,but running them requires installing some of necessary modules.
 If there is such a code at the beginning:import wx,then run the code at the command prompt:pip install wxPython  

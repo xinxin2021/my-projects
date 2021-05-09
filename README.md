@@ -1,6 +1,6 @@
 # My-Projects
 This is My-Projects's README
-## Backgroud
+## Background
 My make of works.
 ## Install
 This project can be run directly,but running them requires installing some of necessary modules.

@@ -1,6 +1,7 @@
 # coding=utf-8
 from random import randint
 print('按下回车生成激活码')
+print('Press enter to generate the activation code')
 while True:
     a = input()
     if a == '':

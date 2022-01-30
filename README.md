@@ -1,5 +1,6 @@
 # My-Projects
 This is My-Projects's README
+English | [简体中文](https://github.com/xinxin2021/my-projects/blob/main/README_ch.md)
 ## Background
 My make of works.
 ## Install

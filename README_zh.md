@@ -1,6 +1,6 @@
 # My-Projects
 这是My-Projects的README  
-[English](https://github.com/xinxin2021/my-projects/blob/main/README.md) | 简体中文 | 繁體中文(https://github.com/xinxin2021/my-projects/blog/main/README_tc.md)
+[English](https://github.com/xinxin2021/my-projects/blob/main/README.md) | 简体中文 | 繁體中文(https://github.com/xinxin2021/my-projects/blob/main/README_tc.md)
 ## 背景
 我的作品。
 ## 安装

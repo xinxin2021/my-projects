@@ -5,7 +5,7 @@ English | [简体中文](https://github.com/xinxin2021/my-projects/blob/main/REA
 My make of works.
 ## Install
 This project can be run directly,but running them requires installing some of necessary modules.
-If there is such a code at the beginning:import wx,then run the code at the command prompt:pip install wxPython  
+If there is such a code at the beginning:import wx,then run the code at the command prompt:`pip install wxPython`  
 Without this statement,you don't need to install any necessary modules.
 ## Usage
 These can be run directly.
